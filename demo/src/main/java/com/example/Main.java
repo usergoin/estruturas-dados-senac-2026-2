@@ -1,19 +1,27 @@
 package com.example;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Scanner fell = new Scanner;
 
-        calculateSum(5, 10, "Danilo");
-        calculateSum(60, 9, "Sampaio");
-        calculateSum(30, 8, "Gabriela");
-        calculateSum(69, 67, "Heitor");
-        calculateSum(23, 20, "Luana");
+        int nota1;
+        int nota2;
+        int nota3;
+        double media;
+
+        System.out.println("Digite a primeira nota: ");
+        Scanner nota1 = fell.nextInt();
+
+        System.out.println("Digite a Segunda nota: ");
+        Scanner nota1 = fell.nextInt();
+
+        System.out.println("Digite a  Terceira nota: ");
+        Scanner nota1 = fell.nextInt();
+        
+        media = (nota1 + nota ) / 3.0;
+
+        System.out.println("Sua media é: " + media);
+
     }
-
-  public static void calculateSum(int a, int b, String userName) {
-        System.out.println(a + b + " " + userName);
-    }  
-
-
 }

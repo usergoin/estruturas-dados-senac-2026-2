@@ -1,0 +1,44 @@
+package com.example;
+import java.util.Scanner;
+
+public class Media {
+        private double nota1, nota2, nota3, media;
+
+        public double calcularMedia(double n1, double n2, double nota3) {
+            setNota1(double.parseDouble("Digite nota 1: "));
+            setNota2(double.parseDouble("Digite nota 2: "));
+            setNota3(double.parseDouble("Digite nota 3: "));
+
+            double soma = getNota1()+getNota2()+getNota3();
+            double media= soma/3
+
+            return media;
+
+        }
+
+        public double getNota1(); {
+            return nota1;
+        }
+
+        public double getNota2() {
+            return nota2;
+        }
+
+        public double geNota3() {
+            return nota3;
+        }
+
+        public void setNota1(double nota1) {
+            this.nota1 = nota1;
+        }
+
+        public void setNota2(double nota2){
+            this.nota2 = nota2;
+        }
+
+        public void setNota3(double nota3) {
+            this.nota3 = nota3;
+        }
+
+    }
+
